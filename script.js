@@ -1,9 +1,20 @@
-localStorage.setItem('name','Bob')
+localStorage.setItem('name' , 'Bob')
 localStorage.removeItem('name')
 
-sessionStorage.setItem('name','John')
-sessionStorage.setItem('name','Bob'))
 
-document.cookie='name=kyle; expires=' + new Date(9999, 0, 1).toUTCString()
 
-document.cookie='last=kyle; expires=' + new Date(9999, 0, 1).toUTCString()
+sessionStorage.setItem('name' , 'John')
+//sessionStorage.setItem('name' , 'aloic')
+//console.log(sessionStorage.getItem('name'))
+sessionStorage.removeItem('name')
+
+
+document.cookie = 'name = kyloe; expires=' + new Date(2076,0,2)
+.toUTCString()
+
+document.cookie = 'lastName = jenner; expires=' + new Date(2076,0,2)
+.toUTCString()
+
+
+document.cookie = 'MiddleName = Mash; expires=' + new Date(2076,0,2)
+.toUTCString()
